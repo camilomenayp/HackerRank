@@ -14,5 +14,5 @@ function hourglassSum(arr) {
       result.push(acu);
     });
   });
-  return Math.max(result);
+  return Math.max(...result);
 }
